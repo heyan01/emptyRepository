@@ -1,0 +1,417 @@
+body,div,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,a,span,img,input,table,tr,th,td,b,i,em,strong,font,form,label,textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif , "宋体";
+    font-size: 12px;
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.w1200{
+    margin: 0 auto;
+    width: 1200px;
+}
+.max1200{
+    margin-left: -45px;
+}
+.max30{
+    margin-left: -30px;
+}
+/*clear end*/
+.header{
+    width: 100%;
+    min-width: 1200px;
+    background: url("../images/bottom_bg.gif");
+}
+.headerTop{
+    height: 40px;
+    line-height: 40px;
+}
+.headerTop a{
+    float: right;
+    padding: 0 10px;
+}
+.headerTop .xinlang{
+    margin-top: -2px;
+}
+.headerTop .tel{
+    padding-left: 20px;
+    background: url("../images/tel.png") no-repeat left center;
+    color: #ffb441;
+}
+.headerTop .email{
+    padding-left: 20px;
+    background: url("../images/mail.png") no-repeat left center;
+    color: #4cccd9;
+}
+.nav{
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    /*line-height: 100px;*/
+    background: #ffffff;
+    border-bottom: 2px solid #d8d8d8;
+}
+.nav h1{
+    float: left;
+    padding-top: 30px;
+}
+.nav .navList{
+    float: right;
+}
+.nav .navList a{
+    float: left;
+    width: 105px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+}
+.nav .navList a:hover,.nav .navList .home{
+    background: url("../images/menu_hover_bg.gif") no-repeat center;
+    color: #ffffff;
+}
+/*header end*/
+.banner{
+    position: relative;
+}
+.banner .bannerList{
+    /*overflow: hidden;*/
+    width: 100%;
+    min-width: 1200px;
+    height: 478px;
+}
+.banner .bannerList li{
+    display: none;
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 478px;
+    background: url("../images/1389083288.jpg") no-repeat top center;
+}
+.banner .bannerList .on{
+    display: block;
+}
+.textList{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+}
+.textList li{
+    margin-left: 45px;
+    float: left;
+    padding: 10px 30px 0 30px;
+    width: 310px;
+    height: 90px;
+    background: rgba(255, 255, 255, .8);
+    cursor: pointer;
+}
+.textList li h3{
+    padding-bottom: 2px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 20px;
+    text-align: center;
+    color: #888888;
+}
+.textList li p{
+    border-top: 1px solid #f9f9f9;
+    padding-top: 5px;
+    color: #bbbbbb;
+    line-height: 20px;
+}
+.textList li:hover,.textList li.on{
+    background: rgba(81,185,194,.8);
+}
+.textList li:hover h3,.textList li.on h3{
+    border-bottom: 1px solid #4ba4ac;
+    color: #ffffff;
+}
+.textList li:hover p,.textList li.on p{
+    border-top: 1px solid #69d1da;
+    color: #ffffff;
+}
+.business{
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    min-width: 1200px;
+    height: 308px;
+    background: #f6f6f6;
+}
+.business dl{
+    position: relative;
+    top: -20px;
+    float: left;
+    margin-left: 45px;
+    padding-top: 200px;
+    width: 266px;
+    height: 90px;
+    text-align: center;
+    background: #ffffff;
+}
+.business dl dt a{
+    font-size: 16px;
+    color: #333;
+    font-weight: 900;
+}
+.business dl dd{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #999999;
+}
+.business dl:hover dd{
+    color: #2eafbb;
+}
+.business dl a:hover{
+    color: #4bcdd9;
+}
+.business .list1{
+    background: url("../images/service_bg01.gif") no-repeat top center;
+}
+.business .list1:hover{
+    background: url("../images/service_bg01_hover.gif") no-repeat top center;
+}
+.business .list2{
+    background: url("../images/service_bg02.gif") no-repeat top center;
+}
+.business .list2:hover{
+    background: url("../images/service_bg02_hover.gif") no-repeat top center;
+}
+.business .list3{
+    background: url("../images/service_bg03.gif") no-repeat top center;
+}
+.business .list3:hover{
+    background: url("../images/service_bg03_hover.gif") no-repeat top center;
+}
+.business .list4{
+    background: url("../images/service_bg04.gif") no-repeat top center;
+}
+.business .list4:hover{
+    background: url("../images/service_bg04_hover.gif") no-repeat top center;
+}
+
+.classic{
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    min-width: 1200px;
+    height: 456px;
+}
+.classic .title{
+    height: 92px;
+    background: url("../images/content_title_bg.png") repeat-x 0px 46px;
+}
+.classic .title h3{
+    padding-top: 40px;
+    width: 262px;
+    background: #ffffff;
+}
+.classic .title h3 a{
+    padding-right: 10px;
+    color: #2eafbb;
+    font-size: 20px;
+}
+.classic .title h3 span{
+    color: #aaa;
+    font-weight: 500;
+    font-family: Arial;
+    font-size: 20px;
+    /*Arial 浏览器默认的英文字体*/
+}
+.classic dl{
+    float: left;
+    margin-left: 30px;
+    width: 380px;
+    height: 350px;
+}
+.classic dl dt img{
+    width: 380px;
+    height: 235px;
+}
+.classic dl dd h5{
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.classic dl dd p{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+.news{
+    border-top: none;
+    height: 432px;
+    background: #f9f9f9;
+}
+.news .title h3{
+    background: #f9f9f9;
+}
+.news .newsList{
+    height: 300px;
+}
+.news .newsList .newsL{
+    float: left;
+    width: 550px;
+    padding-right: 45px;
+    border-right: 1px solid #eeeeee;
+}
+.news .newsList .newsR{
+    float: right;
+    width: 550px;
+}
+.news .newsList dl{
+    margin-left: 0;
+    width: 550px;
+    height: 99px;
+    border-top: 1px dashed #d8d8d8;
+}
+.news .newsList dl.nobor{
+    border-top: none;
+}
+.news .newsList dl dt{
+    padding:20px 0 10px 0;
+}
+.news .newsList dl dt a{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 900;
+}
+.news .newsList dl dd a{
+    color: #999999;
+    line-height: 20px;
+}
+.news .newsList dl dt a:hover{
+    color: #2eafbb;
+    text-decoration: underline;
+}
+.news .newsList dl dd a:hover{
+    color: #666666;
+}
+.par{
+    border-bottom: 1px solid #e7e7e7;
+    height: 204px;
+}
+.par .over{
+    overflow: hidden;
+    padding: 0 12px;
+}
+.par ul{
+    width: 1240px;
+}
+.par li{
+    float: left;
+    margin-right: 23px;
+}
+
+.aboutUs{
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 35px;
+    width: 100%;
+    min-width: 1200px;
+    height: 367px;
+    background: url("../images/footer_bg.gif");
+}
+.aboutUs dl{
+    float: left;
+    width: 205px;
+}
+.aboutUs dl dt{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.aboutUs dl dd a{
+    line-height: 34px;
+    color: #333333;
+}
+.aboutUs dl dd a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+.aboutUs .last dd{
+    padding-left: 25px;
+}
+.aboutUs dl .weixin{
+    background: url("../images/weixin.png") no-repeat left center;
+}
+.aboutUs dl .xinlang{
+    background: url("../images/xinlang.png") no-repeat 0 7px;
+}
+.aboutUs dl .tel{
+    background: url("../images/tel.png") no-repeat left center;
+}
+.aboutUs dl .email{
+    background: url("../images/mail.png") no-repeat left center;
+}
+.aboutUs .right{
+    float: right;
+    width: 245px;
+}
+.aboutUs .right label{
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.aboutUs .right input{
+    display: block;
+    margin-bottom: 11px;
+    border: 1px solid #d8d8d8;
+    width: 235px;
+    height: 28px;
+    line-height: 28px;
+}
+.aboutUs .right textarea{
+    width: 235px;
+    max-width: 235px;
+    /*给 textarea 设置最大宽度*/
+    height: 33px;
+    max-height: 33px;
+    border: 1px solid #d8d8d8;
+}
+.aboutUs .right input[type=button]{
+    /*input[type=button] 类型选择器*/
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: 1px solid #26a4b2;
+    border-radius: 3px;
+    width: 76px;
+    height: 32px;
+    background: #43b7c4;
+    color: #ffffff;
+}
+.link{
+    padding-top: 57px;
+    color: #333333;
+}
+.link a{
+    padding-right: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+/*content end*/
+.footer{
+    width: 100%;
+    min-width: 1200px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: #6a6c6b;
+    background: url("../images/bottom_bg.gif");
+}
+
